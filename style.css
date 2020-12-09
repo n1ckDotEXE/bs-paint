@@ -1,6 +1,12 @@
+html {
+  background-color: aqua;
+}
+
 .app {
   display: flex;
   height: 500px;
+  align-items: center;
+  flex-direction: column;
 }
 
 .headings {
@@ -10,6 +16,8 @@
 .brush-selection {
   height: 70px;
   display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .paint {
@@ -51,21 +59,29 @@
 }
 
 .color-1 {
-  background-color: red;
+  background-color: blue;
 }
 
 .color-2 {
-  background-color: orange;
+  background-color: greenyellow;
 }
 
 .color-3 {
-  background-color: green;
+  background-color: red;
 }
 
 .color-4 {
-  background-color: black;
+  background-color: orange;
 }
 
 .color-5 {
-  background-color: white;
+  background-color: yellow;
+}
+
+.message {
+  color: blueviolet;
+}
+
+h3 {
+  color: royalblue;
 }
